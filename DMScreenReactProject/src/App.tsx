@@ -1,7 +1,7 @@
-import Message from './message';
+import PageHeaderBox from "./PageHeaderBox";
 
 function App() {
-  return <div><Message /></div>;
+  <PageHeaderBox/>
 }
 
 export default App;
