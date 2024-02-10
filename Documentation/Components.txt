@@ -1,0 +1,30 @@
+ContentBox:
+	A box to hold the actual content for each generator/rule
+
+BoxHeadear:
+	Header text for each box
+
+PageHeaderBox:
+	An orginizing box for the top of the webpage
+
+PageHeaderText:
+	The header text for the page header
+
+PageHeaderInfo:
+	The other info text for the page header
+
+ContentBodHolder:
+	The orginizing component for all the other content boxes, should align all boxes in a grid
+
+APIConnecter:
+	Component resposible for connecting to different apis and sending back the info
+
+Table:
+	Component used for putting data into a table
+
+Selector:
+	Component used for getting user input from a list of options
+
+Button:
+	Button component, It's just a button not much else to add sorry :(
+
