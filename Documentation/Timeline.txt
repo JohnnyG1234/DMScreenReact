@@ -1,0 +1,13 @@
+************This is all ideal and I fully exspect this timeline to be recked************
+
+Week 5: Getting Navbar
+
+Week 6: Getting content boxes in proper order
+
+Week 7: Some amount of content in boxes
+
+Week 8: Adding rest of content
+
+Week 9: Polishing + adding rest of content
+
+Week 10: Deployment + Hosting 
