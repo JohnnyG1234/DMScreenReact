@@ -1,7 +1,7 @@
 import PageHeaderBox from "./PageHeaderBox";
 
 function App() {
-  <PageHeaderBox/>
+  return <PageHeaderBox/>
 }
 
 export default App;
