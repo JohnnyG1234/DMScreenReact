@@ -6,13 +6,14 @@ import './App.css';
 // Define the prop types for the component
 interface Props {
     textContent: string;
+    classString: string;
   }
 
 
 // Define the functional component
-const PageHeaderText: React.FC<Props> = ({ textContent }) => {
+const PageHeaderText: React.FC<Props> = ({ textContent, classString }) => {
     return (
-      <div className='PageHeaderText'>{textContent}</div>
+      <div className={classString}>{textContent}</div>
     );
   };
 

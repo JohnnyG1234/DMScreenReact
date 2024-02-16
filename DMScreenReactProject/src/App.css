@@ -1,20 +1,48 @@
 
-.PageHeaderBox
+.GridWrap
 {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: flex-start;
-	align-content: stretch;
-    outline: 1px;
-    outline-color: red;
-    outline-style: solid;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 10px;
+
 }
+
+.border
+{
+    box-sizing: border-box;
+    border: 2px solid aquamarine;
+}
+
+.PageHeader {
+    grid-row: 1 ;   
+    grid-column: 1;
+    margin: 10%;
+    font-size: larger;
+  }
 
 
 .PageHeaderText
 {
     color: whitesmoke;
-    margin: 5%;
+    margin: 10%;
 }
+
+.navBarOne
+{
+    grid-row: 1 ;   
+    grid-column: 3;
+}
+
+.navBarTwo
+{
+    grid-row: 1 ;   
+    grid-column: 4;
+}
+
+.navBarThree
+{
+    grid-row: 1 ;   
+    grid-column: 5;
+}
+

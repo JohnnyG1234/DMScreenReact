@@ -1,9 +1,15 @@
-https://www.youtube.com/watch?v=SqcY0GlETPk&t=537s
+https://www.youtube.com/watch?v=SqcY0GlETPk&t=537s // General React
 
-https://www.youtube.com/watch?v=PwWHL3RyQgk&t=232s
+https://www.youtube.com/watch?v=PwWHL3RyQgk&t=232s // Navbar
 
-https://react-tutorial.app/app.html?id=369
+https://react-tutorial.app/app.html?id=369 // More React
 
-https://blog.wordbot.io/tech/how-to-pass-props-to-a-functional-react-component-using-typescript/
+https://blog.wordbot.io/tech/how-to-pass-props-to-a-functional-react-component-using-typescript/  // Passing props to a componenet
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout // Css grid
+
+https://css-tricks.com/snippets/css/complete-guide-grid/ // more css grid stuffs
+
+https://www.shecodes.io/athena/8451-how-to-center-images-in-a-grid-with-css // I hate css grids >:(
 
 
