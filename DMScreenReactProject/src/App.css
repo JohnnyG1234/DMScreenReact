@@ -1,3 +1,20 @@
-.PageHeaderBox{
 
-};
+.PageHeaderBox
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+    outline: 1px;
+    outline-color: red;
+    outline-style: solid;
+}
+
+
+.PageHeaderText
+{
+    color: whitesmoke;
+    margin: 5%;
+}

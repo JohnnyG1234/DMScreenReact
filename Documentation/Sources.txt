@@ -1,8 +1,8 @@
 https://www.youtube.com/watch?v=SqcY0GlETPk&t=537s
 
-https://react-tutorial.app/app.html?id=369
+https://www.youtube.com/watch?v=PwWHL3RyQgk&t=232s
 
-https://www.youtube.com/watch?v=PwWHL3RyQgk
+https://react-tutorial.app/app.html?id=369
 
 https://blog.wordbot.io/tech/how-to-pass-props-to-a-functional-react-component-using-typescript/
 
