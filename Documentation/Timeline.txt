@@ -1,8 +1,8 @@
 ************This is all ideal and I fully exspect this timeline to be recked************
 
-Week 5: Getting Navbar
+Week 5: Getting Navbar //I failed at this so moving it back to week 6
 
-Week 6: Getting content boxes in proper order
+Week 6: Getting Navbar/Setting up boxes
 
 Week 7: Some amount of content in boxes
 
