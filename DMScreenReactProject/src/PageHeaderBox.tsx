@@ -9,6 +9,7 @@ function PageHeaderBox(){
             <PageHeaderText classString='navBarOne PageHeaderText' textContent='H'></PageHeaderText>
             <PageHeaderText classString='navBarTwo PageHeaderText' textContent='H'></PageHeaderText>
             <PageHeaderText classString='navBarThree PageHeaderText' textContent='H'></PageHeaderText>
+            <div className='navBarBorderBox'></div>
         </>   
     );
 }

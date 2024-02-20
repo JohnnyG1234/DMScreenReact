@@ -15,10 +15,12 @@
 }
 
 .PageHeader {
-    grid-row: 1 ;   
-    grid-column: 1;
+    grid-row-start: 1 ;   
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
     margin: 10%;
-    font-size: larger;
+    font-size: large;
   }
 
 
@@ -31,18 +33,28 @@
 .navBarOne
 {
     grid-row: 1 ;   
-    grid-column: 3;
+    grid-column: 4;
 }
 
 .navBarTwo
 {
     grid-row: 1 ;   
-    grid-column: 4;
+    grid-column: 5;
 }
 
 .navBarThree
 {
     grid-row: 1 ;   
-    grid-column: 5;
+    grid-column: 6;
+}
+
+.navBarBorderBox
+{
+    box-sizing: border-box;
+    border: 2px solid aquamarine;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 16;
 }
 
