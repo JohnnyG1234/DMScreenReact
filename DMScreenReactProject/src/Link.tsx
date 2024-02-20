@@ -3,11 +3,12 @@ import "./App.css"
 interface Props {
     linkString: string;
     textContent: string;
+    classString: string
   }
 
-const Link: React.FC<Props> = ({ textContent, linkString }) => {
+const Link: React.FC<Props> = ({ textContent, linkString, classString }) => {
     return (
-        <a href={linkString}> {textContent} </a>
+        <a className={classString} href={linkString}> {textContent} </a>
     );
   }
   
