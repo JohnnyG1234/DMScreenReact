@@ -9,11 +9,11 @@ interface Props {
 const HyperLink: React.FC<Props> = ({ textContent, linkString, classString }) => {
 
   function handleClick() {
-    console.log('You clicked me!');
+    alert("bruh");
   }
 
   return (
-      <div onClick={handleClick} className={classString}> {textContent} </div>
+      <button onClick={() => {alert("bruh");}} className={classString}> {textContent} </button>
   );
   }
   

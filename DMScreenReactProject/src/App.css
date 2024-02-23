@@ -16,9 +16,9 @@
 
 .PageHeader {
     grid-row-start: 1 ;   
-    grid-row-end: 1;
+    grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 2;
     margin: 10%;
   }
 
@@ -57,3 +57,10 @@
     grid-column-end: 16;
 }
 
+
+.hyperLinkButton{
+    background-color: #242424;
+    border-radius: 1px;
+    font-size: 16px;
+    border: 2px solid aquamarine;
+}

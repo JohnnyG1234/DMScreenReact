@@ -14,3 +14,9 @@ https://www.shecodes.io/athena/8451-how-to-center-images-in-a-grid-with-css // I
 
 https://react.dev/learn/responding-to-events // React Events
 
+https://www.w3schools.com/css/css3_buttons.asp // styling buttons
+
+https://betterprogramming.pub/css-grid-in-react-f8323b521fab // grid in react
+
+https://tailwindcss.com/ // css library 
+
