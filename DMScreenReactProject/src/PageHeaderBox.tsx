@@ -1,7 +1,7 @@
 import { Children } from 'react';
 import './App.css';
 import PageHeaderText from './PageHeaderText';
-import Link from './link';
+import Link from './Link';
 
 function PageHeaderBox(){
     return (
