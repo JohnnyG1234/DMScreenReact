@@ -13,7 +13,7 @@ const HyperLink: React.FC<Props> = ({ textContent, linkString, classString }) =>
   }
 
   return (
-      <button onClick={() => {alert("bruh");}} className={classString}> {textContent} </button>
+      <div onClick={() => {alert("bruh");}} className={classString}> {textContent} </div>
   );
   }
   
