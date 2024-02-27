@@ -22,3 +22,5 @@ https://tailwindcss.com/ // css library
 
 https://www.w3schools.com/css/css_grid.asp // even more grid stufffff
 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_square \\squares!!!
+
