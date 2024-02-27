@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="GridWrap">
         <PageHeaderBox/>
-        <div className="test"> sdda </div>
     </div>
   );
 }
