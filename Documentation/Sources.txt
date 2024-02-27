@@ -20,3 +20,5 @@ https://betterprogramming.pub/css-grid-in-react-f8323b521fab // grid in react
 
 https://tailwindcss.com/ // css library 
 
+https://www.w3schools.com/css/css_grid.asp // even more grid stufffff
+

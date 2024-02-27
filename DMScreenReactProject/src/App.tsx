@@ -3,8 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="GridWrap">
         <PageHeaderBox/>
+        <div className="test"> sdda </div>
     </div>
   );
 }
