@@ -20,8 +20,8 @@
     display: grid;
     grid-template-areas: 
     "a a a"
-    "b c c"
-    "b c c";
+    "b c d"
+    "e f g";
     gap: 10px;
     padding: 10px;
 
@@ -32,7 +32,7 @@
     grid-area: a;
     box-sizing: border-box;
     align-self: stretch;
-    border: 2px solid #610023;
+    border: 2px solid #990147;
     text-align: center;
     padding: 10px 0;
     font-size: 15px;
@@ -54,5 +54,44 @@
     margin: 10%;
 }
 
+.square {
+    height: 280px;
+    width: 400px;
+    border: 2px solid #990147;
+    text-align: center;
+    align-self: stretch;
+    margin-left: 10%;
+  }
 
+
+.b
+{
+    grid-area: b;
+    
+}
+
+.c
+{
+    grid-area: c;
+}
+
+.d
+{
+    grid-area: d;
+}
+
+.e
+{
+    grid-area: e;
+}
+
+.f
+{
+    grid-area: f;
+}
+
+.g
+{
+    grid-area: g;
+}
 

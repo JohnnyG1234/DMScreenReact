@@ -2,12 +2,24 @@
 
 Week 5: Getting Navbar //I failed at this so moving it back to week 6
 
-Week 6: Getting Navbar/Setting up boxes
+Week 6: Getting Navbar/Setting up boxes // Kinda failed again
 
-Week 7: Some amount of content in boxes
+Week 7: Finished Navbar, starting boxes formating //Finished navbar and box formating :)
 
-Week 8: Adding rest of content
+Week 8: Adding content condition rules box
 
-Week 9: Polishing + adding rest of content
+Week 9: Spring break?
 
-Week 10: Deployment + Hosting 
+Week 10: Finishing up condition rules, add dc guide
+
+------------ After this things get a little harder to prdeict (gonna have to push stuff back)
+
+Week 11: Figure out apis in react 
+
+Week 12: Start implementing random tables with api help
+
+Week 13: Finish up random tables 
+
+Week 14: ?
+
+Week 15: ?
