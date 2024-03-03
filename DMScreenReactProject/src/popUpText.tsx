@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
 import './App.css';
 
-function PopUp(){
+interface Props {
+    buttonString: string;
+    textContent: string;
+    header: string;
+  }
+
+function PopUp(props: Props){
 
     const [popUp, setPopUp] = useState(false);
 
@@ -11,20 +17,19 @@ function PopUp(){
 
     return (
         <>
-            <button onClick={togglePopUp}>
-                Open
+            <button className='button' onClick={togglePopUp}>
+            {props.buttonString}
             </button>
 
             {popUp && (
                 <div className='popUp'>
                 <div onClick={togglePopUp} className='overlay'></div>
                 <div className='popUpContent'>
-                    <h2> Deafened </h2>
+                    <h2> {props.header} </h2>
                     <p>
-                    A deafened creature can’t hear and automatically 
-                    fails any ability check that requires hearing.
+                    {props.textContent}
                     </p>
-                    <button
+                    <button className='button'
                     onClick={togglePopUp}> 
                     Close </button>
                 </div>
