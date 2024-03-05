@@ -1,8 +1,9 @@
-import PageHeaderBox from "./PageHeaderBox";
 import Box from "./box";
-import PopUp from "./popUpText";
 import './App.css';
+
 import Conditions from "./conditions";
+import DCGuide from "./DCGuide";
+import PageHeaderBox from "./PageHeaderBox";
 
 
 
@@ -12,7 +13,8 @@ function App() {
     <div className="GridWrap">
         <PageHeaderBox/>
         <Conditions/>
-        <Box textContent="DC Guide" classString="c square"></Box>
+        <DCGuide/>
+        
         <Box textContent="Rabdom Tavern" classString="d square"></Box>
         <Box textContent="Random Encounter" classString="e square"></Box>
         <Box textContent="Random Loot Table" classString="f square"></Box>

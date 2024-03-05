@@ -30,3 +30,5 @@ https://roll20.net/compendium/dnd5e/Conditions#content // dnd condition rules
 
 https://www.dnd5eapi.co/ // dnd api
 
+https://www.hipstersanddragons.com/difficulty-classes-for-ability-checks-5e/ // dc rules guide
+
