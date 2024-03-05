@@ -95,3 +95,69 @@
     grid-area: g;
 }
 
+
+.popUp, .overlay
+{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+
+.button
+{
+    background-color: #242424;
+    border: 2px solid #990147;
+    font-size: 16px;
+    padding: 8px;
+    margin: 6px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    
+}
+
+
+.button:hover
+{
+    background-color: #80013c74; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+    background-color: #80013c74;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.overlay
+{
+    background: rgba(26, 26, 26, 0.632);
+}
+
+.popUpContent
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#242424;
+    border: 2px solid #990147;
+    padding: 14px 28px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.conditionFlex
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: stretch;
+}
+

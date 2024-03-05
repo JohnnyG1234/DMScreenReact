@@ -3,5 +3,10 @@ Box:
 
 PageHeaderBox:
 	An orginizing box for the top of the webpage, has all the navbar stuff
+PopUp:
+	A component that is a button that will display text when pressed
+	used for condition rules
+Conditions: 
+	A wrapper component for the condition rules box
 
 

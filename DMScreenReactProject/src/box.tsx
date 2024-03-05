@@ -8,7 +8,7 @@ interface Props {
 
 function Box(props: Props){
     return (
-        <div className={props.classString}> {props.textContent} </div>
+        <div className={props.classString}> {props.textContent}</div>
     );
 }
 
