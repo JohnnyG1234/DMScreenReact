@@ -161,3 +161,14 @@
 	align-content: stretch;
 }
 
+.table
+{
+    width: 80%;
+}
+
+.tableLine
+{
+    border: 2px solid #990147;
+    width: 146.5%;
+}
+
