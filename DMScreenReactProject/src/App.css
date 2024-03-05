@@ -107,15 +107,19 @@
     position: fixed;
 }
 
+
 .button
 {
     background-color: #242424;
     border: 2px solid #990147;
-    font-size: 14px;
-    padding: 6px;
+    font-size: 16px;
+    padding: 8px;
+    margin: 6px;
     border-radius: 4px;
     transition-duration: 0.4s;
+    
 }
+
 
 .button:hover
 {
