@@ -32,3 +32,7 @@ https://www.dnd5eapi.co/ // dnd api
 
 https://www.hipstersanddragons.com/difficulty-classes-for-ability-checks-5e/ // dc rules guide
 
+https://www.reddit.com/r/DnD/comments/5jmv0k/dnd5eapi_a_rest_api_for_dd_5th_edition/ // lol 
+
+https://open5e.com/ // other dnd api
+
