@@ -32,7 +32,7 @@ https://www.dnd5eapi.co/ // dnd api
 
 https://www.hipstersanddragons.com/difficulty-classes-for-ability-checks-5e/ // dc rules guide
 
-https://www.reddit.com/r/DnD/comments/5jmv0k/dnd5eapi_a_rest_api_for_dd_5th_edition/ // lol 
+https://builtin.com/software-engineering-perspectives/react-api // api request guide
 
-https://open5e.com/ // other dnd api
+https://www.reddit.com/r/FoundryVTT/comments/tvwyf0/for_the_plugin_makers_chartopia_api_for_random/ // dnd api help
 
