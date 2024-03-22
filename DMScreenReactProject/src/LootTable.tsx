@@ -8,12 +8,16 @@ const hobgoblinChartId = 51343;
 const orcChartId = 51389;
 const skelotonChartId = 51391;
 const koboldChartId = 51474;
+const guardChartId = 51382;
+const banditChartId = 51390;
+const gnollChartId = 51392;
+
 
 
 
 function LootTable() {
+    
     const [data, setData] = useState(null);
-    const [chartId, setChartId] = useState(51482);
     const [popUp, setPopUp] = useState(false);
 
     const togglePopUp = () =>{
@@ -21,13 +25,11 @@ function LootTable() {
     }
 
 
-    const buttonChartSet = () =>{ 
+    const buttonChartSet = ()  =>{ 
+        setData(null);
         const select = document.getElementById("monsters");
-        let val = select.value;
-        setChartId(val)
-        setPopUp(!popUp)
 
-        fetch(`${API_ROOT}/api/charts/${chartId}/roll/`
+        fetch(`${API_ROOT}/api/charts/${select.value}/roll/`
         ,{
             method: 'POST',
             mode: 'cors',
@@ -39,6 +41,22 @@ function LootTable() {
           .then(response => response.json())
           .then(json => setData(json))
           .catch(error => console.error(error));
+
+          setPopUp(!popUp);
+    }
+
+    const parseData = () => {
+        if (data != null)
+        {
+            const stringArray = data.results[0].split("\n");
+            const newString = stringArray[1] + ": " + stringArray[4]
+
+            return newString;
+        }  
+        else
+        {
+            console.log("Data is null :(");
+        }
     }
       
 
@@ -52,6 +70,9 @@ function LootTable() {
                     <option value={orcChartId}>Orc</option>
                     <option value={skelotonChartId}>Skeloton</option>
                     <option value={koboldChartId}>Kobold</option>
+                    <option value={guardChartId}>Guard</option>
+                    <option value={banditChartId}>Bandit</option>
+                    <option value={gnollChartId}>Gnoll</option>
                 </select>
                 <button onClick={buttonChartSet} className='button'>
                     Get Loot!
@@ -62,7 +83,7 @@ function LootTable() {
                 <div onClick={togglePopUp} className='overlay'></div>
                 <div className='popUpContent'>
                 <div className='root'>
-                    {data ? <pre>{JSON.stringify(data.results[0], null, 2)}</pre> : 'Loading...'}
+                    {data ? <pre>{parseData()}</pre> : 'Loading...'}
                 </div>
                     <button className='button'
                     onClick={togglePopUp}> 
