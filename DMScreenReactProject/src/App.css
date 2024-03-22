@@ -117,7 +117,6 @@
     margin: 6px;
     border-radius: 4px;
     transition-duration: 0.4s;
-    
 }
 
 
@@ -141,14 +140,14 @@
 .popUpContent
 {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background:#242424;
     border: 2px solid #990147;
     padding: 14px 28px;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 1000px;
+    min-width: 600px;
 }
 
 .conditionFlex
@@ -170,5 +169,17 @@
 {
     border: 2px solid #990147;
     width: 146.5%;
+}
+
+
+.select
+{
+    position: relative;
+    background-color: #242424;
+    border: 2px solid #990147;
+    font-size: 16px;
+    padding: 8px;
+    margin: 6px;
+    border-radius: 4px;
 }
 

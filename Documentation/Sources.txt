@@ -36,3 +36,4 @@ https://builtin.com/software-engineering-perspectives/react-api // api request g
 
 https://www.reddit.com/r/FoundryVTT/comments/tvwyf0/for_the_plugin_makers_chartopia_api_for_random/ // dnd api help
 
+https://jsfiddle.net/gmcc051/bt6cs1up/26/ // Chartopia api use case example
