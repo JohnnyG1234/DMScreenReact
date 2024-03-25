@@ -1,8 +1,8 @@
-import { Children } from 'react';
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
 const API_ROOT = "https://chartopia.d12dev.com";
+
 const goblinChartId = 51482;
 const hobgoblinChartId = 51343;
 const orcChartId = 51389;
