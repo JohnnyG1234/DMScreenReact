@@ -11,11 +11,6 @@ import { useEffect } from "react";
 
 
 function App() {
-
-  useEffect(() => {
-      document.title = 'Digital DM Screen'
-    },[]);
-
   return (
     <>
     <div className="GridWrap">
