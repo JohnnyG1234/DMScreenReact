@@ -10,10 +10,6 @@ function RandomNpc(){
     const [data, setData] = useState(null);
     const [showButton, setShow] = useState(false);
 
-    const toggleShow = () =>{
-       setShow(!showButton);
-    }
-
     // Call funcion on page load
     // https://stackoverflow.com/questions/63193114/how-do-i-call-a-function-automatically-when-page-loads-up-in-react-js-in-2020
     useEffect(() => {
@@ -25,7 +21,7 @@ function RandomNpc(){
 
     const getData = () => {
         setData(null);
-        toggleShow();
+        setShow(false);
 
         fetch(`${API_ROOT}/api/charts/${npcChartId}/roll/`
         ,{
@@ -39,7 +35,8 @@ function RandomNpc(){
           .then(response => response.json())
           .then(json => setData(json))
           .catch(error => console.error(error));
-          toggleShow();
+
+          setShow(true);
     }
 
     const parseData = () => {
@@ -57,7 +54,6 @@ function RandomNpc(){
             {
                 newString = stringArray[1] + "\n " + stringArray[3] + "\n" + stringArray[5] + "\n" + stringArray[7] + "\n" + stringArray[11] + "\n" + stringArray[25];
             }
-            
             
             return newString;
         }  
