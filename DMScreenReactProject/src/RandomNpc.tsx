@@ -8,11 +8,11 @@ const npcChartId = 42627;
 
 function RandomNpc(){
     const [data, setData] = useState(null);
-    //const [showButton, setShow] = useState(false);
+    const [showButton, setShow] = useState(false);
 
-    //const toggleShow = () =>{
-    //   setShow(!showButton);
-    //}
+    const toggleShow = () =>{
+       setShow(!showButton);
+    }
 
     // Call funcion on page load
     // https://stackoverflow.com/questions/63193114/how-do-i-call-a-function-automatically-when-page-loads-up-in-react-js-in-2020
@@ -25,7 +25,7 @@ function RandomNpc(){
 
     const getData = () => {
         setData(null);
-        //toggleShow();
+        toggleShow();
 
         fetch(`${API_ROOT}/api/charts/${npcChartId}/roll/`
         ,{
@@ -39,7 +39,7 @@ function RandomNpc(){
           .then(response => response.json())
           .then(json => setData(json))
           .catch(error => console.error(error));
-          //toggleShow();
+          toggleShow();
     }
 
     const parseData = () => {
@@ -74,7 +74,10 @@ function RandomNpc(){
             <div className="g square">
                 <h2>Random NPC</h2>
                 {data ? <pre>{parseData()}</pre> : 'Loading...'}
-                <button onClick={getData} className='button'> Get NPC! </button>
+                {showButton && (
+                    <button onClick={getData} className='button'> Get NPC! </button>
+                )}
+                
             </div>
         </>
     )
