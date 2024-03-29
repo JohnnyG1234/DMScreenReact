@@ -13,6 +13,10 @@ function RandomTavern(){
         setPopUp(!showPopUp);
     }
 
+    const cutString = () =>{
+
+    }
+
     const getData = ()  =>{ 
         setData(null);
 
@@ -41,8 +45,6 @@ function RandomTavern(){
             let newString = stringArray[0]
             newString = newString.replace("<u>", "");
             newString = newString.replace("</u>", "");
-            
-
 
             return newString;
         }  
