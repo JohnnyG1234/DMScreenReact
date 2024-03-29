@@ -3,7 +3,7 @@ import './App.css';
 
 interface Props {
     buttonString: string;
-    textContent: string;
+    textContent: any;
     header: string;
   }
 
