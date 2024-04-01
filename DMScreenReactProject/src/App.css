@@ -190,16 +190,21 @@
 
 a:link {
     text-decoration: none;
+    color: whitesmoke;
   }
   
   a:visited {
     text-decoration: none;
+    color: whitesmoke;
   }
   
   a:hover {
     text-decoration: underline;
+    color: #990147;
+    transition-duration: 300ms;
   }
   
   a:active {
     text-decoration: underline;
+    color: #990147;
   }
