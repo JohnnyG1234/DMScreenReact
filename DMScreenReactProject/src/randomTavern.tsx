@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import PopUp from "./popUpText";
 
 const API_ROOT = "https://chartopia.d12dev.com";
@@ -7,14 +7,21 @@ const tavernID = 26936;
 function RandomTavern(){
 
     const [data, setData] = useState(null);
-    const [showPopUp, setPopUp] = useState(false);
 
-    const togglePopUp = () => {
-        setPopUp(!showPopUp);
-    }
 
-    const cutString = () =>{
+    useEffect(() => {
+        let ignore = false;
+        
+        if (!ignore)  getData();
+        return () => { ignore = true; }
+        },[]);
 
+    const cutStar = (word: string) => {
+        for (let i = 0; i < 4; i++)
+            {
+                word = word.replace("*", "");
+            }
+        return word;
     }
 
     const getData = ()  =>{ 
@@ -39,14 +46,26 @@ function RandomTavern(){
         if (data != null)
         {
             let stringArray = data.results;
+
+            stringArray = stringArray[0].split("\n");
             console.log(stringArray);
 
-            stringArray = stringArray[0].split("\n")
-            let newString = stringArray[0]
-            newString = newString.replace("<u>", "");
-            newString = newString.replace("</u>", "");
+            let tavernName = stringArray[0];
+            tavernName = tavernName.replace("<u>", "");
+            tavernName = tavernName.replace("</u>", "");
 
-            return newString;
+            let Ambiance = stringArray[5];
+            Ambiance = cutStar(Ambiance);
+
+            let barkeep = stringArray[6];
+            barkeep = cutStar(barkeep);
+
+            let prices = stringArray[9]
+            prices = cutStar(prices);
+
+            const finalString = tavernName + "\n" + Ambiance + "\n" + barkeep + "\n" + prices;
+
+            return finalString;
         }  
         else
         {
