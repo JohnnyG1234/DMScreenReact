@@ -19,6 +19,14 @@ function RandomNpc(){
         return () => { ignore = true; }
         },[]);
 
+    const cutStar = (word: string) => {
+        for (let i = 0; i < 4; i++)
+            {
+                word = word.replace("*", "");
+            }
+        return word;
+    }
+
     const getData = () => {
         setData(null);
         setShow(false);
@@ -46,11 +54,11 @@ function RandomNpc(){
             let newString = ""
             if (stringArray[13] != "Traits:")
             {
-                newString = stringArray[1] + "\n " + stringArray[3] + "\n" + stringArray[5] + "\n" + stringArray[7] + "\n" + stringArray[13] + "\n" + stringArray[29];
+                newString = stringArray[1] + "\n " + stringArray[3] + "\n" + stringArray[5] + "\n" + cutStar(stringArray[7]) + "\n" + stringArray[13] + "\n" + stringArray[29];
             }
             else
             {
-                newString = stringArray[1] + "\n " + stringArray[3] + "\n" + stringArray[5] + "\n" + stringArray[7] + "\n" + stringArray[11] + "\n" + stringArray[25];
+                newString = stringArray[1] + "\n " + stringArray[3] + "\n" + stringArray[5] + "\n" + cutStar(stringArray[7]) + "\n" + stringArray[11] + "\n" + stringArray[25];
             }
             
             return newString;
