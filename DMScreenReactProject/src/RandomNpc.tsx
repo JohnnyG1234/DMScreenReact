@@ -42,9 +42,7 @@ function RandomNpc(){
     const parseData = () => {
         if (data != null)
         {
-            console.log(data);
             const stringArray = data.results[0].split("\n");
-            console.log(stringArray);
             let newString = ""
             if (stringArray[13] != "Traits:")
             {
