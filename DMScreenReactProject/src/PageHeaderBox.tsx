@@ -6,8 +6,8 @@ function PageHeaderBox(){
         <div className="PageHeader navBarFlex">
             <h2>Digital DM Screen</h2>
             <a href="https://github.com/JohnnyG1234/DMScreenReact"> Github </a>
-            <div> other </div>
-            <div> stuff </div>
+            <a href="https://chartopia.d12dev.com/"> Chartopia </a>
+            <a href="https://www.linkedin.com/in/johngroton/"> Me! </a>
         </div>
     );
 }
