@@ -9,6 +9,7 @@ import PageHeaderBox from "./PageHeaderBox";
 import LootTable from "./LootTable";
 import RandomNpc from "./RandomNpc";
 import RandomTavern from "./randomTavern";
+import RandomEncounter from "./randomEncounter";
 
 
 
@@ -22,7 +23,7 @@ function App() {
         <Conditions/>
         <DCGuide/>
         <RandomTavern/>
-        <Box textContent="Random Encounter" classString="e square"></Box>
+        <RandomEncounter/>
         <LootTable/>
         <RandomNpc/>
         

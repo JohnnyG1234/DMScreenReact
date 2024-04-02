@@ -48,7 +48,6 @@ function RandomTavern(){
             let stringArray = data.results;
 
             stringArray = stringArray[0].split("\n");
-            console.log(stringArray);
 
             let tavernName = stringArray[0];
             tavernName = tavernName.replace("<u>", "");
