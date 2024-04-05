@@ -66,3 +66,72 @@ export const grassland1To5 = [
     "2d4 hobgoblins, 2d4 orcs, or 2d4 gnolls",
     "2d4 goblins"
 ];
+
+export const grassland6To10 = [
+    "1d3 gorgons",
+    "1d4 cyclopes",
+    "1d3 gnoll fangs of Yeenoghu",
+    "1 chimera",
+    "1d4 + 1 veterans riding horses",
+    "A tornado that touches down 1d6 miles away, tearing up the land for 1 mile before it dissipates",
+    "1d3 manticores",
+    "2d4 ankhegs",
+    "1d8 + 1 centaurs",
+    "1d6 + 2 griffons",
+    "1d6 elephants",
+    "A stretch of land littered with rotting war machines, bones, and banners of forgotten armies",
+    "1d8 + 1 bugbears",
+    "1 gnoll pack lord with 1d4 + 1 giant hyenas",
+    "2d4 scarecrows",
+    "1d12 lions",
+    "1d10 thri-kreen",
+    "1 allosaurus",
+    "1 tiger",
+    "1d2 giant eagles or 1d2 giant vultures"
+];
+
+export const arctic1To4 = [
+    "1 giant owl",
+    "1d6 + 3 kobolds",
+    "1d4 + 3 trappers (commoners)",
+    "1 owl",
+    "2d4 blood hawks",
+    "2d6 bandits",
+    "1d3 winged kobolds with 1d6 kobolds",
+    "The partially eaten carcass of a mammoth, from which 1d4 weeks of rations can be harvested",
+    "2d8 hunters (tribal warriors",
+    "1 half-ogre",
+    "Single-file tracks in the snow that stop abruptly",
+    "1d3 ice mephites",
+    "1 brown bear",
+    "1d6 + 1 orcs",
+    "1 polar bear",
+    "1d6 scouts",
+    "1 saber-toothed tiger",
+    "A frozen pond with a jagged hole in the ice that appears recently made",
+    "1 berserker",
+    "1 griffon"
+];
+
+export const arctic5To10 = [
+    "2 saber-toothed tigers",
+    "1d4 half-ogres",
+    "1d3 + 1 brown bears",
+    "1d3 polar bears",
+    "2d4 berserkers",
+    "A half-orc druid tending to an injured polar bear. If the characters assist the druid, she gives them a vial of antitoxin.",
+    "2d8 scouts",
+    "2d4 ice mephits",
+    "2d6 +1 zombies aboard a galleon trapped in the ice. Searching the ship yields 2d20 days of rations.",
+    "1 manticore",
+    "2d6 + 3 orcs",
+    "1d6 + 2 ogres",
+    "2d4 griffons",
+    "1d4 veterans",
+    "1 bandit captain with 1 druid, 1d3 berserkers, and 2d10 + 5 bandits",
+    "1d4 hours of extreme cold (see chapter 5 of the Dungeon Master's Guide)",
+    "1 young remorhaz",
+    "1 orc Eye of Gruumsh with 1d6 orogs and 2d8 + 6 orcs",
+    "1 revenant",
+    "A howl that echoes over the land for 1d3 minutes"
+];

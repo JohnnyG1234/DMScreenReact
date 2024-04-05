@@ -1,11 +1,11 @@
 import './App.css';
-import {forest1To4, forest5To10, grassland1To5} from "./EncounterTables";
+import {forest1To4, forest5To10, grassland1To5, grassland6To10, arctic1To4, arctic5To10} from "./EncounterTables";
 import React, {useState, useRef} from 'react';
 
 function RandomEncounter(){
 
     const [popUp, setPopUp] = useState(false);
-    const inputElement = useRef(null);
+    const inputElement = useRef<HTMLInputElement>(null);
 
     const togglePopUp = () =>{
         setPopUp(!popUp)
@@ -18,26 +18,40 @@ function RandomEncounter(){
     
     const getEncounter = () => {
         
-        if (inputElement.current == null)
+        if (inputElement.current.value == null)
         {
             console.log("Input value is null");
             return "Value is null";
         }
 
-
-        if (inputElement.current == "forest1-4")
+        if (inputElement.current.value == "forest1-4")
         {
             const encounter = forest1To4[getRandom()];
             return encounter;
         }
-        else if (inputElement.current == "forest5-10")
+        else if (inputElement.current.value == "forest5-10")
         {
             const encounter = forest5To10[getRandom()];
             return encounter;
         }
-        else if (inputElement.current == "grassland1-5")
+        else if (inputElement.current.value == "grassland1-5")
         {
             const encounter = grassland1To5[getRandom()];
+            return encounter;
+        }
+        else if (inputElement.current.value == "grassland6-10")
+        {
+            const encounter = grassland6To10[getRandom()];
+            return encounter;
+        }
+        else if (inputElement.current.value == "arctic1-4")
+        {
+            const encounter = arctic1To4[getRandom()];
+            return encounter;
+        }
+        else if (inputElement.current?.value == "arctic5-10")
+        {
+            const encounter = arctic5To10[getRandom()];
             return encounter;
         }
     }
@@ -53,6 +67,9 @@ function RandomEncounter(){
                 <option value="forest1-4">Forest levels 1-4</option>
                 <option value="forest5-10">Forest levels 5-10</option>
                 <option value="grassland1-5">Grassland levels 1-5</option>
+                <option value="grassland6-10">Grassland levels 6-10</option>
+                <option value="arctic1-4">Arctic levels 1-4</option>
+                <option value="arctic5-10">Arctic levels 5-10</option>
             </select>
             <button className='button' onClick={togglePopUp}> Get Encounter! </button>
 
