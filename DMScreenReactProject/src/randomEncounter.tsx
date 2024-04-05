@@ -1,10 +1,11 @@
 import './App.css';
 import {forest1To4, forest5To10, grassland1To5} from "./EncounterTables";
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 
 function RandomEncounter(){
 
     const [popUp, setPopUp] = useState(false);
+    const inputElement = useRef(null);
 
     const togglePopUp = () =>{
         setPopUp(!popUp)
@@ -16,26 +17,25 @@ function RandomEncounter(){
     }
     
     const getEncounter = () => {
-        const inputElement = document.getElementById("encounter");
         
-        if (inputElement.value == null)
+        if (inputElement.current == null)
         {
             console.log("Input value is null");
             return "Value is null";
         }
 
 
-        if (inputElement.value == "forest1-4")
+        if (inputElement.current == "forest1-4")
         {
             const encounter = forest1To4[getRandom()];
             return encounter;
         }
-        else if (inputElement.value == "forest5-10")
+        else if (inputElement.current == "forest5-10")
         {
             const encounter = forest5To10[getRandom()];
             return encounter;
         }
-        else if (inputElement.value == "grassland1-5")
+        else if (inputElement.current == "grassland1-5")
         {
             const encounter = grassland1To5[getRandom()];
             return encounter;
@@ -49,7 +49,7 @@ function RandomEncounter(){
 
             <h2>Random Encounter</h2>
 
-            <select className='select' id='encounter'>
+            <select ref={inputElement} className='select' id='encounter'>
                 <option value="forest1-4">Forest levels 1-4</option>
                 <option value="forest5-10">Forest levels 5-10</option>
                 <option value="grassland1-5">Grassland levels 1-5</option>
