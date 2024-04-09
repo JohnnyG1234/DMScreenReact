@@ -28,8 +28,6 @@ https://www.youtube.com/watch?v=9DwGahSqcEc // React pop up
 
 https://roll20.net/compendium/dnd5e/Conditions#content // dnd condition rules
 
-https://www.dnd5eapi.co/ // dnd api
-
 https://www.hipstersanddragons.com/difficulty-classes-for-ability-checks-5e/ // dc rules guide
 
 https://builtin.com/software-engineering-perspectives/react-api // api request guide
@@ -37,3 +35,7 @@ https://builtin.com/software-engineering-perspectives/react-api // api request g
 https://www.reddit.com/r/FoundryVTT/comments/tvwyf0/for_the_plugin_makers_chartopia_api_for_random/ // dnd api help
 
 https://jsfiddle.net/gmcc051/bt6cs1up/26/ // Chartopia api use case example
+
+https://dnd.wizards.com/products/xanathars-guide-everything // Book where I got the random encounter tables
+
+https://www.w3schools.com/ // just general use I love this website

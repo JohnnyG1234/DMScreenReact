@@ -1,20 +1,25 @@
 # DMScreenReact
 A simple dm toolkit made in react. This toolkit is meant to be a type of digital DM screen with tools that would be helpfull when dming D&D 5th addition. But some of the features would be usefull in any table top roleplaying system.
 
-#### Features I want to include
-##### Not all of these will make it but I just want to get all my ideas out
+## Features
+
 1: List of all conditions and their descriptions
 
-2: Random npc name generator, and a random race, age, and gender.
+2: Random npc generator
 
-3: Random encounter tables (and the ability to select what region to get encounters from)
+3: Random encounter generator (and the ability to select what region to get encounters from)
 
 4: Difficulty class guide (tells you what to set the dc based on how hard the action is
 
-5: Random shop/tavern names
+5: Random tavern
 
-6: Random loot tables or magic items based on rarity
+6: Random loot selector based on monster
 
-7: Customization?
+## Context
+
+I made this for one of my college courses and the idea behind it was to make some sort of react website for my portfolio. I choose to make a DM screen type tool as it is something I'm interested in, and I think it would be usefull to a DM new to the game. 
+
+Feel free the use of the code here and change it around how ever you like. If you just want to use it I'm currently working on a way to get it hosted somewhere!
+
 
 
